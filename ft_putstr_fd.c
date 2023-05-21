@@ -6,7 +6,7 @@
 /*   By: hlabouit <hlabouit@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 16:19:04 by hlabouit          #+#    #+#             */
-/*   Updated: 2022/11/21 01:12:10 by hlabouit         ###   ########.fr       */
+/*   Updated: 2022/11/23 17:37:36 by hlabouit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-// int main()
-// {
-//     int fd = open("file", O_RDWR | O_CREAT);
-//     ft_putstr_fd("mouad", fd);
-//     return 0;
-// }

@@ -6,7 +6,7 @@
 /*   By: hlabouit <hlabouit@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/05 17:18:18 by hlabouit          #+#    #+#             */
-/*   Updated: 2022/11/21 02:26:44 by hlabouit         ###   ########.fr       */
+/*   Updated: 2022/11/23 17:08:50 by hlabouit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -97,15 +97,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (output);
 }
-
-// int main()
-// {
-// 	int i = 0;
-// 	char s[] = "A M A P I A N O";
-// 	char **str = ft_split(s, ' ');
-// 	while(str[i])
-// 	{
-// 		printf("%s\n", str[i]);
-// 		i++;
-// 	}
-// }

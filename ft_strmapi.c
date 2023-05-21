@@ -6,7 +6,7 @@
 /*   By: hlabouit <hlabouit@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/18 05:19:44 by hlabouit          #+#    #+#             */
-/*   Updated: 2022/11/19 02:09:37 by hlabouit         ###   ########.fr       */
+/*   Updated: 2022/11/23 16:36:42 by hlabouit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,16 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	string[i] = '\0';
 	return (string);
 }
-
-// string[i] = f(i, s[i]); we store what 'f' returns into string
-// char	test(unsigned int i, char c)
-// {
-// 	i = 0;
-// 	c -= 32;
-// 	return c;
-// }
-// int main()
-// {
-// 	char s[] = "mouad";
-// 	printf("%s\n", ft_strmapi(s, test));
-// }

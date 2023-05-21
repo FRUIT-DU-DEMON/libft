@@ -6,7 +6,7 @@
 /*   By: hlabouit <hlabouit@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/19 00:11:07 by hlabouit          #+#    #+#             */
-/*   Updated: 2022/11/21 02:01:47 by hlabouit         ###   ########.fr       */
+/*   Updated: 2022/11/21 02:55:42 by hlabouit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,18 +24,4 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		f(i, &s[i]);
 		i++;
 	}
-}
-
-void f(unsigned int i, char *p)
-{
-	i = 0;
-	if (p > < )
-	return ;
-	p[i] += 32;
-}
-int main()
-{
-	char s[] = "HI";
-	ft_striteri(s, f);
-	printf("%s\n", s);
 }
